@@ -2,60 +2,56 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="20dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/login"/>
+        android:text="@string/login"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/telalogin_et_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text"/>
+        android:inputType="text" />
 
     <TextView
-        android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/senha"/>
+        android:layout_marginTop="15dp"
+        android:text="@string/senha"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/telalogin_et_senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword" />
 
     <LinearLayout
-        android:layout_marginTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/telalogin_btn_logar"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/logar"/>
+            android:layout_weight="1"
+            android:text="@string/logar" />
 
         <Button
             android:id="@+id/telalogin_btn_cancelar"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/cancelar"/>
-
+            android:layout_weight="1"
+            android:text="@string/cancelar" />
 
 
     </LinearLayout>
-
-
-
 
 
 </LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Menu de Opções"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/telaprincipal_btn_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cardapio" />
+
+        <Button
+            android:id="@+id/telaprincipal_btn_pedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efetuar_pedido" />
+
+        <Button
+            android:id="@+id/telaprincipal_btn_servico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/solicitar_servico" />
+
+        <Button
+            android:id="@+id/telaprincipal_btn_historico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/historico_de_pedido" />
+
+    </LinearLayout>
+
+</LinearLayout>

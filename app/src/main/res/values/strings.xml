@@ -4,4 +4,11 @@
     <string name="senha">Senha:</string>
     <string name="logar">Logar</string>
     <string name="cancelar">Cancelar</string>
+    <string name="historico_de_pedido">Historico de Pedido</string>
+    <string name="solicitar_servico">Solicitar Serviço</string>
+    <string name="efetuar_pedido">Efetuar pedido</string>
+    <string name="cardapio">Cardapio</string>
+    <string name="cardapio">Cardapio</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="servicos">Serviços</string>
 </resources>
