@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TelaPrincipal"/>
+        <activity android:name=".TelaCardapio"/>
+        <activity android:name=".TelaPedido"/>
+        <activity android:name=".TelaServicos"/>
+        <activity android:name=".TelaHistorico"/>
     </application>
 
 </manifest>
