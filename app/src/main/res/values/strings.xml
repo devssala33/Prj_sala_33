@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Prj_sala_33</string>
+    <string name="login">Login:</string>
+    <string name="senha">Senha:</string>
+    <string name="logar">Logar</string>
+    <string name="cancelar">Cancelar</string>
 </resources>
