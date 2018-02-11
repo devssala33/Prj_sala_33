@@ -59,7 +59,7 @@ public class TelaPrincipal extends AppCompatActivity{
             public void onClick(View view) {
                 Intent abrir = new Intent(context, TelaCardapio.class);
                 startActivity(abrir);
-
+                finish();
             }
         });
     }
@@ -72,7 +72,7 @@ public class TelaPrincipal extends AppCompatActivity{
             public void onClick(View view) {
                 Intent abrir = new Intent(context, TelaPedido.class);
                 startActivity(abrir);
-
+                finish();
             }
         });
     }
@@ -84,7 +84,7 @@ public class TelaPrincipal extends AppCompatActivity{
             public void onClick(View view) {
                 Intent abrir = new Intent(context, TelaServicos.class);
                 startActivity(abrir);
-
+                finish();
             }
         });
     }
@@ -96,7 +96,7 @@ public class TelaPrincipal extends AppCompatActivity{
             public void onClick(View view) {
                 Intent abrir = new Intent(context, TelaHistorico.class);
                 startActivity(abrir);
-
+                finish();
             }
         });
     }
