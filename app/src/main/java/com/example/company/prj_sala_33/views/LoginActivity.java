@@ -1,6 +1,7 @@
 package com.example.company.prj_sala_33.views;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -79,7 +80,9 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void logar() {
+        Intent intent = new Intent(context, TelaPrincipal.class);
 
+        startActivity(intent);
     }
 
     private void exibirErro(String mensagem) {
@@ -99,6 +102,12 @@ public class LoginActivity extends AppCompatActivity {
 
         if(senha.length() == 0){
             mensagem = "Erro senha é obrigatoria";
+            return false;
+        }
+
+        if (!(login.equals("admin") && senha.equals("admin"))){
+
+            mensagem = "Usuario ou senha incorretos";
             return false;
         }
 
